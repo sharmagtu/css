@@ -5,3 +5,8 @@ classname{
   background-position: center;
   background-size: cover;
   }
+  //align center
+  classname{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%)
