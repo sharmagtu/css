@@ -29,3 +29,10 @@ classname{
   height: 10px;
   
   now write your text inside this.
+  
+  //text ending with ...
+   width : 100px;
+  overflow:hidden;
+  display:inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
