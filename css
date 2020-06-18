@@ -36,3 +36,34 @@ classname{
   display:inline-block;
   text-overflow: ellipsis;
   white-space: nowrap;
+  =====================================
+  // autofit--even when column increse or decrease
+  html
+  <div class="grid-container grid-container--fit">
+        <div class="grid-element">
+            1
+        </div>
+        <div class="grid-element">
+            2
+        </div>
+        <div class="grid-element">
+            3
+        </div>
+        <div class="grid-element">
+            4
+        </div>
+    </div>
+    css///
+    .grid-container {
+    display: grid;
+}
+.grid-container--fit {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.grid-element {
+  background-color: #009688;
+  padding: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+====================================
